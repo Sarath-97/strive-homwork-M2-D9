@@ -7,7 +7,13 @@ body {
 }
 
 .display-4{
-color: black;
+color: white;
+}
+
+.jumbotron{
+    background-image: url("https://bit.ly/2RF8e5u");
+    background-size: auto;
+
 }
 h1 {
     font-family: 'Odibee Sans', cursive;
@@ -46,8 +52,14 @@ h1 {
 
 }
 
-/* .parallax {
-    /* The image used */
+label{
+    font-size: 1.5rem;
+    font-family: 'Odibee Sans', cursive;
+    float:left;
+}
+
+ /* .parallax {
+    
     background-image: url("images/parallax.jpg");
 
     min-height: 500px;
@@ -55,4 +67,4 @@ h1 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
-} */
+}  */
