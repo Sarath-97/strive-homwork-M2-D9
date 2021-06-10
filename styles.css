@@ -38,13 +38,14 @@ h1 {
 .badge{
     position: absolute;
     top:5px;
-    left:25px;
-    z-index: 10;
+    left:20px;
     width: 60px;
     background-color:black;
     text-align: center;
+    z-index: 10;
 
 }
+
 /* .parallax {
     /* The image used */
     background-image: url("images/parallax.jpg");
