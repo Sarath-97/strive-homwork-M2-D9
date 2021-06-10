@@ -1,0 +1,57 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: black;
+}
+
+.display-4{
+color: black;
+}
+h1 {
+    font-family: 'Odibee Sans', cursive;
+    font-size: 4em;
+    text-align: center;
+    text-transform: capitalize;
+    color: white;
+}
+
+.card-header {
+
+    font-size: 2em;
+    font-family: 'Odibee Sans', cursive;
+    text-transform: capitalize;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.76);
+
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.fav-card{
+    
+    position: relative;
+}
+.badge{
+    position: absolute;
+    top:5px;
+    left:25px;
+    z-index: 10;
+    width: 60px;
+    background-color:black;
+    text-align: center;
+
+}
+/* .parallax {
+    /* The image used */
+    background-image: url("images/parallax.jpg");
+
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+} */
